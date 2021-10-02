@@ -69,8 +69,6 @@ var createBtn = function (recent) {
     }
 }
 
-
-
 var noDupli = function (city) {
 
     for (var i = 0; i < recentHistory.length; i++) {
@@ -160,12 +158,10 @@ var fiveDay = function () {
             })
 }
 loadSearch();
-// console.log(recentBtn);
 var recentBtn = document.querySelectorAll(".recent-btn");
 recentBtn.forEach(function (btn) {
     btn.addEventListener("click", function () {
         var btnVal = this.textContent;
-        // console.log(btnVal);
         inputCity.value = btnVal;
     })
 })
