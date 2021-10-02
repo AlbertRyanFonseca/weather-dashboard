@@ -1,4 +1,26 @@
 body {
   box-sizing: border-box;
   margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+header {
+  height: 60px;
+  background-color: cyan;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border: solid black 2px;
+  margin: 20px 10px;
+}
+
+.recent__searches {
+  border: solid black 2px;
+}
+
+.weather__group {
+  margin-top: 15px;
 }

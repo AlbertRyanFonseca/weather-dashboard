@@ -12,10 +12,32 @@
 
 <body>
     <header>
-        <h1>Weather Dashboard</h1>
+        <h1 class="header__title">Weather Dashboard</h1>
     </header>
     <main>
+        <div class="col-12 col-md-4">
+            <div class="card">
+                <h3 class="card-header text-uppercase">Search For a City</h3>
+                <form id="city-form" class="card-body ">
+                    <label for="Input City" class="form-label"></label>
+                    <input name="city" id="city" type="text" autofocus="true" class="form-input" />
+                    <button type="submit" class="btn btn-primary btn-w">Search</button>
+                </form>
+            </div>
+            <div class="card recent__searches">
+                <h4 class="text-uppercase">Recent Searches:</h4>
+            </div>
 
+        </div>
+        <div class="col-12 col-md-8">
+            <div id="current-container" class="weather__group">
+                <div>
+                    <h3>This is a test</h3>
+                </div>
+            </div>
+            <div id="fiveday-forecast"></div>
+            <h3>Daily Five Day Forecast:</h3>
+        </div>
     </main>
 
 
