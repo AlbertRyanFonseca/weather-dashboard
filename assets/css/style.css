@@ -2,14 +2,24 @@ body {
   box-sizing: border-box;
   margin: 0;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
 }
 
 header {
   height: 60px;
-  background-color: cyan;
+  background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#btnSearch {
+  background-color: black;
+  outline: none;
+}
+
+.title {
+  color: white;
 }
 
 .card {
@@ -23,4 +33,15 @@ header {
 
 .weather__group {
   margin-top: 15px;
+}
+
+.weather__details {
+  font-size: 20px;
+  padding: 10px 0;
+}
+
+.recent__searches {
+  color: red;
+  font-size: 25px;
+  text-align: center;
 }
